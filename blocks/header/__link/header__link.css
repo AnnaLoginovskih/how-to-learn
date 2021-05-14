@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 .header__link:hover {
-  opacity: .5;
+  opacity: .6;
   transition: 1s;
 }
 
