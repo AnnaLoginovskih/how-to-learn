@@ -1,13 +1,11 @@
 
-@keyframes square-pic {
-  from {transform: rotate(-15deg);
-  }
-  to {transform: rotate(345deg);
-  }
-}
-@keyframes triangle {
+@keyframes rotation {
   from {transform: rotate(0deg);
   }
   to {transform: rotate(360deg);
   }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
 }
